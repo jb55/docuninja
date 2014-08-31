@@ -1,0 +1,19 @@
+{
+  "name": "docuninja",
+  "description": "docu.ninja",
+  "keywords": [],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jb55/docuninja.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony --reporter spec"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "expect.js": "*",
+    "mocha": "*",
+  }
+}
