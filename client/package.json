@@ -1,0 +1,23 @@
+{
+  "name": "docuninja-client",
+  "description": "docu.ninja client",
+  "keywords": [],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/docuninja/client.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "make build",
+    "test": "make test_"
+  },
+  "devDependencies": {
+    "changed": "git://github.com/jb55/changed",
+    "duo": "^0.8.1",
+    "duo-test": "^0.3.2",
+    "expect.js": "*",
+    "mocha": "*",
+    "phantomjs": "git://github.com/Medium/phantomjs"
+  }
+}
